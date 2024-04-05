@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: fantasy;
+}
+#grid div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    border: solid black 2px;
+}
+body{
+    background-image: url(images/aboutme2.jpg);
+    background-size: cover;
+}
+main{
+    position: relative;
+    top: 20px;
+}
+@media screen and (min-width:500px){
+    .container{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
