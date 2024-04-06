@@ -6,6 +6,11 @@
         flex-direction: column;
         align-items: center;
     }
+    #menu{
+        font-size: 25px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
     .container{
         background-image: url(images/resume.jpg);
         border-radius: 10px;

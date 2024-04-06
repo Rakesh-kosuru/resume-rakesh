@@ -6,11 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <link rel="stylesheet" href="resume.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
 </head>
 
 <body id="body">
     <div class="container">
         <header>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="menu">
+                  MENU
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="aboutme.html">About Me</a></li>
+                    <li><a class="dropdown-item" href="contact details.html">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+
+
 
             <img src="images/myphoto2.jpg" alt="rakesh's photo" id="myphoto">
             <h1>Rakesh Kosuru</h1>
@@ -19,29 +39,25 @@
             <h2>Personal Info</h2>
             <div id="data">
 
-                <table border="2">
+                <table border="1">
                     <tr>
-                        <th>DOB</th>
+                        <th>DOB:</th>
                         <td> MAY 12, 2006</td>
                     </tr>
                     <tr>
-                        <th>address</th>
+                        <th>address:</th>
                         <td>CALGARY, CANADA</td>
                     </tr>
                     <tr>
-                        <th>mail</th>
+                        <th>mail:</th>
                         <td>rkosu506@mtroyal.ca</td>
                     </tr>
                     <tr>
-                        <th>phone no</th>
+                        <th>phone no:</th>
                         <td> +1 (368)299-3369</td>
                     </tr>
 
                 </table>
-                <!-- <p>DOB: MAY 12, 2006</p>
-             <p>ADDRESS: CALGARY, CANADA</p>
-             <p>MAIL: rkosu506@mtroyal.ca</p>
-             <p>PHONE NO: +1 (368)299-3369</p> -->
             </div>
             <div id="grid">
                 <div id="hobbies">
@@ -98,6 +114,12 @@
         </header>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-7Nc4jhKg3PUG05iWy4v+2ELJ3l2PbkEVCfVN4MgsPrNyj7GR0JqQIZqMrbbCv7zc"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+pnjs2+0s0SQqFOEHDN0DjqB3ujI5Gw/D5EArH3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
