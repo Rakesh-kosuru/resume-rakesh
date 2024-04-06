@@ -23,7 +23,7 @@ h1{
     transition: all 0.5s;
     filter: grayscale(25%);
 }
-h2{
+h3{
     font-family: fantasy;
 }
 #grid div{
