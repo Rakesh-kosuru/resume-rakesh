@@ -1,6 +1,6 @@
 @media screen and (min-width:300px){
     body{
-        background-image: url(images/space.jpg);
+        background-image: url(images/outer_space_4k.jpg);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -44,12 +44,14 @@
     }
     #aboutme{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
+        color: black;
+        background-color: white;
         border: solid black 2px;
         border-radius: 10px;
     }
     #aboutme:hover{
-        font-size: 40px;
+        font-size: 25px;
         color: black;
         border-radius: 10px;
         background-color: orange;
@@ -57,7 +59,8 @@
     }
     #myphoto{
         border: solid black 2px;
-        border-radius: 150%;
+        border-radius: 200%;
+        width: 200px;
     }
     #myphoto:hover{
         border: black solid 3px;
